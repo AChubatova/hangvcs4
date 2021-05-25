@@ -1,0 +1,12 @@
+package Tiger01444
+
+import Tiger01444.vcsRoots.*
+import jetbrains.buildServer.configs.kotlin.v2019_2.*
+import jetbrains.buildServer.configs.kotlin.v2019_2.Project
+
+object Project : Project({
+    id("Tiger01444")
+    name = "Tiger01444"
+
+    vcsRoot(Tiger01444_cVCSroot)
+})
